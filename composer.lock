@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cdfc20f8642b63fea816fb4600610917",
+    "content-hash": "b73d6b590976c489b966cad1ed9e5fe5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3001,6 +3001,71 @@
                 }
             ],
             "time": "2021-09-25T23:10:38+00:00"
+        },
+        {
+            "name": "rennokki/laravel-eloquent-query-cache",
+            "version": "3.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/renoki-co/laravel-eloquent-query-cache.git",
+                "reference": "b79bbce5fc6c450c8740131cd66dd42161af58aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/renoki-co/laravel-eloquent-query-cache/zipball/b79bbce5fc6c450c8740131cd66dd42161af58aa",
+                "reference": "b79bbce5fc6c450c8740131cd66dd42161af58aa",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^7.30|^8.23",
+                "illuminate/support": "^7.30|^8.23"
+            },
+            "require-dev": {
+                "chelout/laravel-relationship-events": "^1.4",
+                "laravel/legacy-factories": "^1.1",
+                "mockery/mockery": "^1.4",
+                "orchestra/database": "^5.0|^6.0",
+                "orchestra/testbench": "^5.0|^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rennokki\\QueryCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Renoki",
+                    "email": "alex@renoki.org",
+                    "homepage": "https://github.com/rennokki",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adding cache on your Laravel Eloquent queries' results is now a breeze.",
+            "homepage": "https://github.com/renoki-co/laravel-eloquent-query-cache",
+            "keywords": [
+                "caching",
+                "eloquent",
+                "laravel",
+                "query",
+                "remember",
+                "sql"
+            ],
+            "support": {
+                "issues": "https://github.com/renoki-co/laravel-eloquent-query-cache/issues",
+                "source": "https://github.com/renoki-co/laravel-eloquent-query-cache/tree/3.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://www.patreon.com/rennokki",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-10-09T05:55:11+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
